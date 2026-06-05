@@ -201,8 +201,8 @@ export function Sidebar({ userEmail }: SidebarProps) {
           })}
         </nav>
 
-        {/* User / logout */}
-        <div className="px-2 pb-4 border-t border-border pt-4 space-y-1">
+        {/* User / logout — h-23 matches chat input footer for aligned border-t */}
+        <div className="flex h-23 shrink-0 flex-col justify-end space-y-1 border-t border-border px-2 pb-4">
           {!isCollapsed && userEmail && (
             <p className="px-3 text-xs text-text-muted truncate mb-2">
               {userEmail}

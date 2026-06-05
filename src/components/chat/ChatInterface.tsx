@@ -162,8 +162,8 @@ export function ChatInterface() {
           <div ref={messagesEndRef} />
         </div>
 
-        {/* Input bar */}
-        <div className="shrink-0 border-t border-border bg-background p-3">
+        {/* Input bar — h-23 matches sidebar footer for aligned border-t */}
+        <div className="flex h-23 shrink-0 flex-col justify-end border-t border-border bg-background px-3 pb-3">
           <div className="flex items-end gap-2">
             <textarea
               ref={textareaRef}
