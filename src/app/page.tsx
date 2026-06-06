@@ -154,7 +154,7 @@ export default function LandingPage() {
                   <circle cx="18" cy="18" r="15" fill="none" stroke="#1a1a1a" strokeWidth="2.5" />
                   <circle
                     cx="18" cy="18" r="15" fill="none"
-                    stroke="#a3e635" strokeWidth="2.5"
+                    stroke="var(--accent-lime)" strokeWidth="2.5"
                     strokeDasharray="72 94"
                     strokeLinecap="round"
                   />
