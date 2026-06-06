@@ -13,7 +13,7 @@ export default function LandingPage() {
     <div className="min-h-screen bg-background text-text-primary">
 
       {/* Nav */}
-      <header className="flex items-center justify-between px-8 py-5 max-w-6xl mx-auto">
+      <header className="flex items-center justify-between px-4 sm:px-8 py-5 max-w-6xl mx-auto">
         <div className="flex items-center gap-2.5">
           <Image src="/careerbrainlogo.png" alt="CareerBrain" width={28} height={28} />
           <span className="font-heading font-bold text-base tracking-tight">CareerBrain</span>
@@ -35,25 +35,25 @@ export default function LandingPage() {
       </header>
 
       {/* Hero */}
-      <section className="relative px-8 pt-28 pb-36 text-center max-w-4xl mx-auto overflow-hidden">
-        {/* Lime radial glow — only gradient in app */}
+      <section className="relative px-4 sm:px-8 pt-16 sm:pt-28 pb-20 sm:pb-36 text-center max-w-4xl mx-auto overflow-hidden">
+        {/* Accent radial glow */}
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
             background:
-              "radial-gradient(ellipse 70% 50% at 50% 20%, rgba(163, 230, 53, 0.07) 0%, transparent 70%)",
+              "radial-gradient(ellipse 70% 50% at 50% 20%, rgba(100, 200, 190, 0.07) 0%, transparent 70%)",
           }}
         />
 
         <div className="relative animate-fade-in">
-          <h1 className="font-heading font-extrabold text-5xl md:text-7xl leading-[1.05] text-text-primary tracking-tight mb-7">
+          <h1 className="font-heading font-extrabold text-[2.25rem] sm:text-5xl md:text-7xl leading-[1.08] text-text-primary tracking-tight mb-6 sm:mb-7">
             Your career,{" "}
             <span className="text-accent-lime">structured.</span>
             <br />
             Your future, reasoned.
           </h1>
 
-          <p className="text-text-secondary text-lg md:text-xl max-w-2xl mx-auto mb-12 leading-relaxed">
+          <p className="text-text-secondary text-base sm:text-lg md:text-xl max-w-2xl mx-auto mb-10 sm:mb-12 leading-relaxed">
             Upload your CV and GitHub profile. CareerBrain builds a structured AI
             model of your career and uses RAG to power intelligent job analysis
             and coaching, grounded in your actual history.
@@ -77,7 +77,7 @@ export default function LandingPage() {
       </section>
 
       {/* How it works */}
-      <section id="how-it-works" className="px-8 py-28 max-w-5xl mx-auto">
+      <section id="how-it-works" className="px-4 sm:px-8 py-20 sm:py-28 max-w-5xl mx-auto">
         <p className="font-mono text-xs text-text-muted tracking-[0.2em] uppercase text-center mb-4">
           Process
         </p>
@@ -124,7 +124,7 @@ export default function LandingPage() {
       </section>
 
       {/* Features */}
-      <section className="px-8 py-28 max-w-5xl mx-auto">
+      <section className="px-4 sm:px-8 py-20 sm:py-28 max-w-5xl mx-auto">
         <p className="font-mono text-xs text-text-muted tracking-[0.2em] uppercase text-center mb-4">
           Features
         </p>
@@ -200,7 +200,7 @@ export default function LandingPage() {
       </section>
 
       {/* Closing statement */}
-      <section className="px-8 py-20 max-w-5xl mx-auto border-t border-border">
+      <section className="px-4 sm:px-8 py-16 sm:py-20 max-w-5xl mx-auto border-t border-border">
         <p className="font-heading text-2xl font-bold text-text-primary text-center max-w-xl mx-auto leading-snug">
           Every answer shows its sources.{" "}
           <span className="text-text-muted font-normal">No black box.</span>
@@ -209,7 +209,7 @@ export default function LandingPage() {
 
       {/* Built by */}
       <section className="border-t border-border">
-        <div className="max-w-5xl mx-auto px-8 py-16 flex flex-col items-center gap-5 text-center">
+        <div className="max-w-5xl mx-auto px-4 sm:px-8 py-16 flex flex-col items-center gap-5 text-center">
           <p className="font-mono text-[10px] tracking-[0.2em] uppercase text-text-muted">
             Designed &amp; built by
           </p>
@@ -263,7 +263,7 @@ export default function LandingPage() {
       </section>
 
       {/* Footer */}
-      <footer className="px-8 py-6 border-t border-border max-w-6xl mx-auto flex items-center justify-between">
+      <footer className="px-4 sm:px-8 py-6 border-t border-border max-w-6xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-2.5">
           <Image src="/careerbrainlogo.png" alt="CareerBrain" width={18} height={18} />
           <span className="font-heading font-bold text-sm text-text-primary">
